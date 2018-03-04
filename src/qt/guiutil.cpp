@@ -181,7 +181,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient* out)
 {
     // Convert atheneum:// to atheneum:
     //
-    //    Cannot handle this later, because phore:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because atheneum:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
     if (uri.startsWith(URI_SCHEME "://", Qt::CaseInsensitive)) {
         uri.replace(0, std::strlen(URI_SCHEME) + 3, URI_SCHEME ":");
