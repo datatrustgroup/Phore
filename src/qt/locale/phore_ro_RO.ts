@@ -186,6 +186,6 @@
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>phore-core</name>
+    <name>atheneum-core</name>
     </context>
 </TS>
